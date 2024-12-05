@@ -66,7 +66,7 @@ st.markdown(
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
-c0, spacer, c1 = st.columns([1.5, 0.2, 1.3])
+c0, c1 = st.columns([2, 1])
 with c0:
     st.markdown(
     f"""
@@ -78,36 +78,21 @@ with c0:
 with c1:
     cluster_name = predicted_cluster_data['name']
     safe_cluster_name = cluster_name.lower().replace(' ', '_') \
-    .replace('ó', 'o') \
-    .replace('ą', 'a') \
-    .replace('ę', 'e') \
-    .replace('ś', 's') \
-    .replace('ć', 'c') \
-    .replace('ń', 'n') \
-    .replace('ł', 'l') \
-    .replace('ż', 'z') \
-    .replace('ź', 'z') \
-    .replace('ü', 'u') 
-    # Mapowanie nazw klastrów na odpowiednie URL-e
-image_urls = {
-    "gorscy_entuzjasci_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Gorscy_entuzjasci_z_wyzszym_wyksztalceniem_image.webp",
-    "lesni_milosnicy_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Lesni_milosnicy_z_wyzszym_wyksztalceniem_image.webp",
-    "milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem_image.webp",
-    "milosnicy_wody_i_psow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_i_psow_ze_srednim_wyksztalceniem_image.webp",
-    "milosnicy_wody_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_z_wyzszym_wyksztalceniem_image.webp",
-    "wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat_image.webp",
-    "Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem_image.webp",
-    "Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem_image.webp"
-}
-
-# Sprawdź, czy obrazek dla tego klastra istnieje w słowniku
-if safe_cluster_name in image_urls:
-    image_url = image_urls[safe_cluster_name]
-else:
-    image_url = "https://example.com/default_image.webp"  # Domyślny obrazek, jeśli nie znaleziono odpowiedniego URL
-
-# Wyświetlenie obrazu
-st.image(image_url, use_container_width=True)
+        .replace('ó', 'o') \
+        .replace('ą', 'a') \
+        .replace('ę', 'e') \
+        .replace('ś', 's') \
+        .replace('ć', 'c') \
+        .replace('ń', 'n') \
+        .replace('ł', 'l') \
+        .replace('ż', 'z') \
+        .replace('ź', 'z') \
+        .replace('ü', 'u') 
+    
+    image_url = f"https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/{safe_cluster_name}_image.webp"
+    
+    # Wyświetlenie obrazu w kolumnie
+    st.image(image_url, use_container_width=True)
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
