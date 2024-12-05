@@ -77,7 +77,17 @@ with c0:
 )
 with c1:
     cluster_name = predicted_cluster_data['name']
-    safe_cluster_name = cluster_name.lower().replace(' ', '_').replace('ó', 'o').replace('ą', 'a').replace('ę', 'e').replace('ś', 's').replace('ć', 'c').replace('ń', 'n').replace('ł', 'l')
+    safe_cluster_name = cluster_name.lower().replace(' ', '_') \
+    .replace('ó', 'o') \
+    .replace('ą', 'a') \
+    .replace('ę', 'e') \
+    .replace('ś', 's') \
+    .replace('ć', 'c') \
+    .replace('ń', 'n') \
+    .replace('ł', 'l') \
+    .replace('ż', 'z') \
+    .replace('ź', 'z') \
+    .replace('ü', 'u') 
     image_path = f"{safe_cluster_name}_image.webp"
     st.image(image_path, use_container_width=True)
 
