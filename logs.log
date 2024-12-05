@@ -18152,3 +18152,666 @@ dtype: int64}]))),
                 ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
 2024-12-05 19:59:58,824:INFO:Set up data.
 2024-12-05 20:00:26,202:INFO:Initializing predict_model()
+2024-12-05 20:00:26,204:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000027F8801B0D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:00:26,204:INFO:Set up data.
+2024-12-05 20:00:26,384:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:26,385:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:26,386:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:26,527:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:26,610:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:26,688:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:26,689:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:44,742:INFO:Initializing predict_model()
+2024-12-05 20:00:44,743:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000027F88D77850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:00:44,743:INFO:Set up data.
+2024-12-05 20:00:44,963:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:44,964:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:44,965:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:45,100:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:45,182:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:00:45,274:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:00:45,275:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:01:03,558:INFO:Initializing predict_model()
+2024-12-05 20:01:03,558:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000027F88C6A450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:01:03,558:INFO:Set up data.
+2024-12-05 20:01:03,759:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:01:03,760:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:01:03,761:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:01:03,892:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:01:03,960:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:01:04,073:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:01:04,074:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:25,744:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-05 20:07:25,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-05 20:07:25,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-05 20:07:25,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-05 20:07:30,038:INFO:Initializing load_model()
+2024-12-05 20:07:30,039:INFO:load_model(model_name=welcome_survey_clustering_pipeline_v2, platform=None, authentication=None, verbose=True)
+2024-12-05 20:07:30,254:INFO:Initializing predict_model()
+2024-12-05 20:07:30,255:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4DA5787D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:07:30,255:INFO:Set up data.
+2024-12-05 20:07:30,697:INFO:Initializing predict_model()
+2024-12-05 20:07:30,698:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4DAB6D310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:07:30,698:INFO:Set up data.
+2024-12-05 20:07:31,092:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  same_cluster_df['gender'] = same_cluster_df['gender'].cat.add_categories('Nie wskazano płci')
+
+2024-12-05 20:07:31,092:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  same_cluster_df['gender'] = same_cluster_df['gender'].fillna('Nie wskazano płci')
+
+2024-12-05 20:07:31,094:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  gender_age_df = same_cluster_df.groupby(['age', 'gender']).size().reset_index(name='count')
+
+2024-12-05 20:07:31,754:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:31,843:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:31,957:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:31,958:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:38,026:INFO:Initializing predict_model()
+2024-12-05 20:07:38,026:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4DB0B52D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:07:38,027:INFO:Set up data.
+2024-12-05 20:07:38,196:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:38,197:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:38,198:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:38,334:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:38,425:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:38,519:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:38,520:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:44,649:INFO:Initializing predict_model()
+2024-12-05 20:07:44,649:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4D0744610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:07:44,649:INFO:Set up data.
+2024-12-05 20:07:44,831:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:44,831:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:44,833:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:44,963:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:45,037:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:45,149:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:45,149:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:57,577:INFO:Initializing predict_model()
+2024-12-05 20:07:57,577:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4DBB00290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:07:57,578:INFO:Set up data.
+2024-12-05 20:07:57,739:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:57,740:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:57,741:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:57,861:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:57,928:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:07:58,042:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:07:58,043:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:08:13,285:INFO:Initializing predict_model()
+2024-12-05 20:08:13,285:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001C4DBB19990>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place', 'gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transfo...
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': Kobieta      0
+Mężczyzna    1
+NaN         -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['age', 'edu_level', 'fav_animals',
+                                             'fav_place'],
+                                    transformer=OneHotEncoder(cols=['age',
+                                                                    'edu_level',
+                                                                    'fav_animals',
+                                                                    'fav_place'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', KMeans(random_state=123))]), ml_usecase=None)
+2024-12-05 20:08:13,285:INFO:Set up data.
+2024-12-05 20:08:13,444:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:138: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:08:13,444:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:139: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:08:13,446:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:143: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:08:13,576:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:190: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:08:13,652:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:212: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+
+2024-12-05 20:08:13,737:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:263: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2024-12-05 20:08:13,738:WARNING:C:\Users\User\OneDrive\Pulpit\od_zera_do_ai\modul_7\find_friends_zad.dom\app.py:266: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+

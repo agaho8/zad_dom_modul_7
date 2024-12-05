@@ -88,8 +88,8 @@ with c1:
     .replace('ż', 'z') \
     .replace('ź', 'z') \
     .replace('ü', 'u') 
-    image_path = f"{safe_cluster_name}_image.webp"
-    st.image(image_path, use_container_width=True)
+    image_url = f"https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/{safe_cluster_name}_image.webp"
+    st.image(image_url, use_container_width=True)
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
