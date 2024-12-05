@@ -105,10 +105,10 @@ with c1:
         .replace('ü', 'u') 
     
     # Jeśli istnieje URL dla tego klastra, załaduj obraz
-image_url = image_urls.get(safe_cluster_name, "https://example.com/default_image.webp")
+    image_url = image_urls.get(safe_cluster_name, "https://example.com/default_image.webp")
 
-# Wyświetlenie obrazu
-st.image(image_url, width=400)
+    # Wyświetlenie obrazu
+    st.image(image_url, width=500)
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
