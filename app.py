@@ -66,7 +66,7 @@ st.markdown(
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
-c0, c1 = st.columns([2, 1])
+c0, c1 = st.columns([1, 1])
 with c0:
     st.markdown(
     f"""
