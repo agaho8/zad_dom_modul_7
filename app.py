@@ -108,7 +108,7 @@ with c1:
 image_url = image_urls.get(safe_cluster_name, "https://example.com/default_image.webp")
 
 # Wyświetlenie obrazu
-st.image(image_url, width=600)
+st.image(image_url, width=400)
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 
