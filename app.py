@@ -90,14 +90,15 @@ with c1:
     .replace('ü', 'u') 
     # Mapowanie nazw klastrów na odpowiednie URL-e
 image_urls = {
-    "gorscy_entuzjasci_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Gorscy_entuzjasci_z_wyzszym_wyksztalceniem_image.webp",
-    "lesni_milosnicy_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Lesni_milosnicy_z_wyzszym_wyksztalceniem_image.webp",
-    "milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem_image.webp",
-    "milosnicy_wody_i_psow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Milosnicy_wody_i_psow_ze_srednim_wyksztalceniem_image.webp",
-    "milosnicy_wody_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Milosnicy_wody_z_wyzszym_wyksztalceniem_image.webp",
-    "wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat_image.webp"
-    "Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem_image.webp",
-    "Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/refs/heads/main/Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem_image.webp"}
+    "gorscy_entuzjasci_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Gorscy_entuzjasci_z_wyzszym_wyksztalceniem_image.webp",
+    "lesni_milosnicy_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Lesni_milosnicy_z_wyzszym_wyksztalceniem_image.webp",
+    "milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_i_psow_z_wyzszym_wyksztalceniem_image.webp",
+    "milosnicy_wody_i_psow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_i_psow_ze_srednim_wyksztalceniem_image.webp",
+    "milosnicy_wody_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_wody_z_wyzszym_wyksztalceniem_image.webp",
+    "wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/wyksztalceni_milosnicy_wody_bez_ulubionych_zwierzat_image.webp",
+    "Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Milosnicy_gor_i_kotow_z_wyzszym_wyksztalceniem_image.webp",
+    "Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Gorscy_milosnicy_kotow_ze_srednim_wyksztalceniem_image.webp"
+}
 
 # Sprawdź, czy obrazek dla tego klastra istnieje w słowniku
 if safe_cluster_name in image_urls:
