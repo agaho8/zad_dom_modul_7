@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FFFFE0"  # Kolor główny (np. dla przycisków)
+backgroundColor = "#FFFFE0"  # Kolor tła głównej części aplikacji
+secondaryBackgroundColor = "#81D4FA"  # Kolor tła sidebaru
+textColor = "#31333F"  # Kolor tekstu
+font = "sans serif"  # Czcionka
