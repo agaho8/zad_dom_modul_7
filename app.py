@@ -76,9 +76,6 @@ with c0:
     """, unsafe_allow_html=True
 )
 with c1:
-    # Przykładowe dane predicted_cluster_data['name']
-    predicted_cluster_data = {'name': 'Gorscy_entuzjasci_z_wyzszym_wyksztalceniem'}
-
     # Mapowanie nazw klastrów na odpowiednie URL-e obrazków
     image_urls = {
         "gorscy_entuzjasci_z_wyzszym_wyksztalceniem": "https://raw.githubusercontent.com/agaho8/zad_dom_modul_7/main/Gorscy_entuzjasci_z_wyzszym_wyksztalceniem_image.webp",
@@ -92,6 +89,7 @@ with c1:
     }
 
     cluster_name = predicted_cluster_data['name']
+    
     safe_cluster_name = cluster_name.lower().replace(' ', '_') \
         .replace('ó', 'o') \
         .replace('ą', 'a') \
